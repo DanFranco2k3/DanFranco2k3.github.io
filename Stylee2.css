@@ -135,3 +135,14 @@ h4 {
 .chaturanga{
 	padding-top: 30%;
 }
+body::-webkit-scrollbar {
+  overflow-x: hidden;
+}
+
+body {
+	overflow: hidden;
+  overflow-style: none; 
+  scrollbar-width: none;
+  border: 0px dotted black;
+  overflow-y: scroll;
+}

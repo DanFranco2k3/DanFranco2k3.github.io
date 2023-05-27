@@ -134,3 +134,14 @@ h4 {
 	top:2480%;
 	left:0%;
 }
+body::-webkit-scrollbar {
+  overflow-x: hidden;
+}
+
+body {
+	overflow: hidden;
+  overflow-style: none; 
+  scrollbar-width: none;
+  border: 0px dotted black;
+  overflow-y: scroll;
+}

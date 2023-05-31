@@ -149,8 +149,7 @@ body::-webkit-scrollbar {
 }
 
 body {
-	overflow: hidden;
-  overflow-style: none; 
+  overflow: hidden; 
   scrollbar-width: none;
   border: 0px dotted black;
   overflow-y: scroll;

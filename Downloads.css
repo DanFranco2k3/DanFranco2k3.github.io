@@ -1,10 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
+/*whole page*/
 * {
 	margin: 0;
 	padding: 0;
 	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 }
+/*this is for the tab above*/
 .banner {
 	width: 100%;
 	height: 100vh;
@@ -13,7 +15,7 @@
 	background-position: center;
 	background-attachment: fixed;
 }
-
+/* for the navbar*/
 .navbar {
 	width: 85%;
 	margin: auto;
@@ -22,25 +24,25 @@
 	align-items: center;
 	justify-content: space-between;
 }
-
+/* this for the logo */
 .logo {
 	width: 50px;
 	cursor: pointer;
 }
-
+/* lining under the tab */
 .navbar ul li {
 	list-style: none;
 	display: inline-block;
 	margin: 0 20px;
 	position: relative;
 }
-
+/* active lining under the tab */
 .navbar ul li a {
 	text-decoration: none;
 	color: #fff;
 	text-transform: uppercase;
 }
-
+/* this for the color for the lining under the title of the tab */
 .navbar ul li::after {
 	content: '';
 	height: 3px;
@@ -51,9 +53,11 @@
 	bottom: -10px;
 	transition: 0.5s;
 }
+/* animation for the lining under the title of the tab */
 .navbar ul li:hover:after {
 	width:100%;
 }
+/* this is for the content displayed in the center */
 .content{
 	width: 100%;
 	position: absolute;
@@ -78,6 +82,7 @@
 	font-weight: 100;
 	line-height: 25px;
 }
+/* for the buttons */
 button{
 	width:200px;
 	padding:15px 0;
@@ -131,6 +136,7 @@ h4 {
 	top:195%;
 	left:0%;
 }
+/* for the link inside the buttons */
 a:link {
   color: white;
   background-color: transparent;
